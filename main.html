@@ -1,32 +1,35 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>My Website</title>
-    <link rel="stylesheet" href="/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Customize your website's style here */
+    </style>
   </head>
   <body>
-    <header>
-      <h1>Welcome to CardCache</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">CardCache</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Giftcards</a></li>
+          <li><a href="#">Market</a></li>
+          <li><a href="#">Profile</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About CardCache</h2>
-        <p>CardCache is a user friendly wallet made specifically to keep track of all of your giftcards. 
-          Never have to carry giftcards again once you download CardCache.
-        </p>
-      </section>
-      <section id="services">
-        <h2>Our services</h2>
-        <ul>
-          <li>Giftcard wallet</li>
-          <li>Buy, sell, and trade market</li>
-        </ul>
-      </section>
-     
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Welcome to CardCache!</h1>
+      <p>Your virtual giftcard wallet.</p>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 CardCache. All rights reserved to MJLN enterprises.</p>
+      </div>
+    </footer>
+  </body>
+</html>
