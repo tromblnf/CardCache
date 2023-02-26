@@ -1,17 +1,21 @@
-body{
-    background-color:rgb(196, 212, 191);
-}
 h1{
     text-align: center;
+
 }
 p{
     text-align: center;
 }
-li{
+h2{
+    text-align:center
+}
+h3{
     text-align: center;
 }
-img{
-    align-items: center;
+header{
+    background-color:rgb(255, 255, 255);
+}
+body{
+    background-color:rgb(196, 212, 191);
 }
 img{
     display: block;
